@@ -1,4 +1,11 @@
 package hs.core.Enum;
 
-public class TripStatus {
+public enum TripStatus  {
+
+    STARTED,
+    IN_PROGRESS,
+    COMPLETED,
+    CANCELLED,
+    REQUESTED,
+    ACCEPTED
 }
