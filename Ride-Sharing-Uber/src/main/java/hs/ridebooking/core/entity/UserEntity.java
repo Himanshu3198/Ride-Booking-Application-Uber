@@ -1,4 +1,4 @@
-package hs.core.Entity;
+package hs.ridebooking.core.entity;
 
 
 import jakarta.persistence.*;

@@ -1,4 +1,4 @@
-package hs.core.Entity.Vehicle;
+package hs.ridebooking.core.entity.Vehicle;
 
 public class Sedan extends VehicleEntity {
 }

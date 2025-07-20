@@ -1,4 +1,4 @@
-package hs.core;
+package hs.ridebooking.core;
 
 public class RideSharingDemo {
     public static void main(String[] args) {

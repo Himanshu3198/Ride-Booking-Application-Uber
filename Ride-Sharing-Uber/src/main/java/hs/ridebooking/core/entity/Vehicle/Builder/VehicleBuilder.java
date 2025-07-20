@@ -1,8 +1,8 @@
-package hs.core.Entity.Vehicle.Builder;
+package hs.ridebooking.core.entity.Vehicle.Builder;
 
-import hs.core.Entity.Vehicle.VehicleEntity;
-import hs.core.Enum.VehicleStatus;
-import hs.core.Enum.VehicleType;
+import hs.ridebooking.core.entity.Vehicle.VehicleEntity;
+import hs.ridebooking.core.enums.VehicleStatus;
+import hs.ridebooking.core.enums.VehicleType;
 
 public class VehicleBuilder<T extends VehicleEntity> {
 

@@ -1,4 +1,4 @@
-package hs.core.Util;
+package hs.ridebooking.core.util;
 
 
 import org.springframework.stereotype.Component;

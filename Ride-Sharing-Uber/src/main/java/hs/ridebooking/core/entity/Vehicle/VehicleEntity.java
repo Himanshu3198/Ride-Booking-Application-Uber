@@ -1,7 +1,7 @@
-package hs.core.Entity.Vehicle;
+package hs.ridebooking.core.entity.Vehicle;
 
-import hs.core.Enum.VehicleStatus;
-import hs.core.Enum.VehicleType;
+import hs.ridebooking.core.enums.VehicleStatus;
+import hs.ridebooking.core.enums.VehicleType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 

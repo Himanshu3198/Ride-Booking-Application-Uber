@@ -1,7 +1,7 @@
-package hs.core.Entity;
+package hs.ridebooking.core.entity;
 
-import hs.core.Entity.Vehicle.VehicleEntity;
-import hs.core.Enum.TripStatus;
+import hs.ridebooking.core.entity.Vehicle.VehicleEntity;
+import hs.ridebooking.core.enums.TripStatus;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;

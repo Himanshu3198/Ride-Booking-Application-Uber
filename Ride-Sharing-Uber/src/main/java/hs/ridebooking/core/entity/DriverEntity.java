@@ -1,6 +1,6 @@
-package hs.core.Entity;
+package hs.ridebooking.core.entity;
 
-import hs.core.Entity.Vehicle.VehicleEntity;
+import hs.ridebooking.core.entity.Vehicle.VehicleEntity;
 import jakarta.persistence.*;
 import java.util.List;
 

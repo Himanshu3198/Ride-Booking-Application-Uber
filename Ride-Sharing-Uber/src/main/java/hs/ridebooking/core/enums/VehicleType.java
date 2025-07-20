@@ -1,4 +1,4 @@
-package hs.core.Enum;
+package hs.ridebooking.core.enums;
 
 public enum VehicleType {
     SEDAN,
