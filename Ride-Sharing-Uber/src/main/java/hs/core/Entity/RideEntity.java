@@ -1,5 +1,6 @@
 package hs.core.Entity;
 
+import hs.core.Entity.Vehicle.VehicleEntity;
 import hs.core.Enum.TripStatus;
 import jakarta.persistence.*;
 

@@ -1,4 +1,4 @@
-package hs.core.Entity;
+package hs.core.Entity.Vehicle;
 
 import hs.core.Enum.VehicleStatus;
 import hs.core.Enum.VehicleType;
