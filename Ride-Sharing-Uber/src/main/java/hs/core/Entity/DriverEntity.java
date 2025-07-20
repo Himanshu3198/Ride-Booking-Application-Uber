@@ -17,7 +17,7 @@ public class DriverEntity extends UserEntity {
     private VehicleEntity vehicle;
 
     @OneToMany(mappedBy = "driver")
-    private List<TripEntity> completedRides;
+    private List<RideEntity> completedRides;
 
     // ======= Getters =======
 
@@ -33,7 +33,7 @@ public class DriverEntity extends UserEntity {
         return vehicle;
     }
 
-    public List<TripEntity> getCompletedRides() {
+    public List<RideEntity> getCompletedRides() {
         return completedRides;
     }
 
@@ -54,7 +54,7 @@ public class DriverEntity extends UserEntity {
         return this;
     }
 
-    public DriverEntity setCompletedRides(List<TripEntity> completedRides) {
+    public DriverEntity setCompletedRides(List<RideEntity> completedRides) {
         this.completedRides = completedRides;
         return this;
     }

@@ -8,15 +8,15 @@ import java.util.List;
 public class RiderEntity extends UserEntity {
 
     @OneToMany(mappedBy = "rider") // assuming TripEntity has `@ManyToOne private RiderEntity rider`
-    private List<TripEntity> trips;
+    private List<RideEntity> trips;
 
     // ======= Getter =======
-    public List<TripEntity> getTrips() {
+    public List<RideEntity> getTrips() {
         return trips;
     }
 
     // ======= Setter with Method Chaining =======
-    public RiderEntity setTrips(List<TripEntity> trips) {
+    public RiderEntity setTrips(List<RideEntity> trips) {
         this.trips = trips;
         return this;
     }
