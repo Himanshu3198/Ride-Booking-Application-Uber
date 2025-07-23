@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
+@DiscriminatorValue("DRIVER")
 public class DriverEntity extends UserEntity {
 
     @Column(name = "license", nullable = false)

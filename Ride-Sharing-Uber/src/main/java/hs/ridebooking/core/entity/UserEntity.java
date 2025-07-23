@@ -3,12 +3,15 @@ package hs.ridebooking.core.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.Pattern;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "users")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class UserEntity {
 
@@ -19,10 +22,12 @@ public abstract class UserEntity {
     @Column(name = "user_name", nullable = false)
     private String name;
 
-    @Column(name = "phone", nullable = false)
+    @Column(unique = true, nullable = false)
+    @Pattern(regexp = "^[0-9]{10}$", message = "Phone number must be 10 digits")
     private String phone;
 
-    @Column(name = "email", nullable = false)
+    @Column(unique = true, nullable = false)
+    @Email
     private String email;
 
     @DecimalMin(value = "0.0", inclusive = true, message = "Wallet balance must be non-negative")

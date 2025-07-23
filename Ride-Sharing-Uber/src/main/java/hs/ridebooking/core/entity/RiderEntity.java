@@ -1,10 +1,12 @@
 package hs.ridebooking.core.entity;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 import java.util.List;
 
 @Entity
+@DiscriminatorValue("RIDER")
 public class RiderEntity extends UserEntity {
 
     @OneToMany(mappedBy = "rider") // assuming TripEntity has `@ManyToOne private RiderEntity rider`
