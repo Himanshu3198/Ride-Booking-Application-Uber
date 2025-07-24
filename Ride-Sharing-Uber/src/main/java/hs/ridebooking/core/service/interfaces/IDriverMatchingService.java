@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface IDriverMatchingService {
 
-    DriverEntity findNearestDriverByCoordinates(Double lat, Double lon);
-    DriverEntity findDriverByPincode(Double lat, Double lon);
+    List<DriverEntity> findNearestDriverByCoordinates(Double lat, Double lon);
+//    DriverEntity findDriverByPincode(Double lat, Double lon);
     List<DriverEntity> findAvailableDriver();
 }
