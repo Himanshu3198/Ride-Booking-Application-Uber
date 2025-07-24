@@ -4,7 +4,6 @@ import hs.ridebooking.core.constant.DriverMatchingConstant;
 import hs.ridebooking.core.entity.DriverEntity;
 import hs.ridebooking.core.exception.DriverNotFoundException;
 import hs.ridebooking.core.repository.DriverRepository;
-import hs.ridebooking.core.constant.DriverMatchingConstant;
 import hs.ridebooking.core.service.interfaces.IDriverMatchingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
