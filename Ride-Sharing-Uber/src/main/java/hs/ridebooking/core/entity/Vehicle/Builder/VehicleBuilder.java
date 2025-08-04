@@ -9,7 +9,7 @@ public class VehicleBuilder<T extends VehicleEntity> {
     protected final T vehicle;
 
     public VehicleBuilder(VehicleEntity vehicle) {
-        this.vehicle = vehicle;
+        this.vehicle = (T) vehicle;
     }
 
     public VehicleBuilder<T> id(Long id) {

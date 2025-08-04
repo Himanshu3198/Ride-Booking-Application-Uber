@@ -1,7 +1,7 @@
 package hs.ridebooking.core.observer;
 
-import hs.ridebooking.core.entity.RideEntity;
+import hs.ridebooking.core.model.RideRequest;
 
 public interface IObserver {
-    void update(RideEntity rideRequest);
+    void update(RideRequest rideRequest);
 }
