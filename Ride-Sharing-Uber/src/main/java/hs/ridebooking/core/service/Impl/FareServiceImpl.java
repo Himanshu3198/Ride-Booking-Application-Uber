@@ -1,4 +1,4 @@
-package hs.ridebooking.core.service.interfaces.Impl;
+package hs.ridebooking.core.service.Impl;
 
 import hs.ridebooking.core.service.interfaces.IFareService;
 import hs.ridebooking.core.strategy.IFareCalculationStrategy;

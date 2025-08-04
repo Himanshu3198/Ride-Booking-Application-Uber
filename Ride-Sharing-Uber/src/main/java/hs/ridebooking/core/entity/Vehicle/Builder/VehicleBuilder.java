@@ -8,7 +8,7 @@ public class VehicleBuilder<T extends VehicleEntity> {
 
     protected final T vehicle;
 
-    public VehicleBuilder(VehicleEntity vehicle) {
+    public VehicleBuilder(SuvBuilder vehicle) {
         this.vehicle = (T) vehicle;
     }
 

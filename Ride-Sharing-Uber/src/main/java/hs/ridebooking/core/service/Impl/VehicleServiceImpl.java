@@ -1,4 +1,4 @@
-package hs.ridebooking.core.service.interfaces.Impl;
+package hs.ridebooking.core.service.Impl;
 
 import hs.ridebooking.core.entity.Vehicle.VehicleEntity;
 import hs.ridebooking.core.exception.CustomException;

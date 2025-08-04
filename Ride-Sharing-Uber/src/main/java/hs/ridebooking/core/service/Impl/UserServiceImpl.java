@@ -1,4 +1,4 @@
-package hs.ridebooking.core.service.interfaces.Impl;
+package hs.ridebooking.core.service.Impl;
 
 import hs.ridebooking.core.entity.UserEntity;
 import hs.ridebooking.core.service.interfaces.IUserService;
